@@ -8,6 +8,7 @@
         <module>DDaycar_Eurekaserver</module>
         <module>DDaycar_Clienthello</module>
         <module>DDaycar_ClientHello_Rest</module>
+        <module>DDaycar_ServerUser</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
