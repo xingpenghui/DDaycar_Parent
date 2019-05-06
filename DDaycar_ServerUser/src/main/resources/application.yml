@@ -1,6 +1,5 @@
 server:
   port: 10011
-# ˝æ›ø‚≈‰÷√
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
@@ -16,5 +15,3 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
-#mybatis:
-#  mapper-locations:

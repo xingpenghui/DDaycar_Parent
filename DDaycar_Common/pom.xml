@@ -11,5 +11,24 @@
     <artifactId>DDaycar_Common</artifactId>
     <packaging>jar</packaging>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.aliyun</groupId>
+            <artifactId>aliyun-java-sdk-core</artifactId>
+            <version>4.1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20171018</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/redis.clients/jedis -->
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>3.0.1</version>
+        </dependency>
+
+    </dependencies>
 
 </project>

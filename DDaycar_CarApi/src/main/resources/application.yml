@@ -5,6 +5,9 @@ eureka:
 spring:
   application:
     name: CarApi
+  main:
+    allow-bean-definition-overriding: true
 server:
   port: 8088
+
 

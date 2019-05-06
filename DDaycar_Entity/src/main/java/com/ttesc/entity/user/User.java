@@ -12,5 +12,4 @@ public class User {
     private String phone;
     private String password;
     private int flag;
-
 }

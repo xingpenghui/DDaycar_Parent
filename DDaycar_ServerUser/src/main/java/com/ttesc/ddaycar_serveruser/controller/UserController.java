@@ -1,12 +1,10 @@
 package com.ttesc.ddaycar_serveruser.controller;
 
 import com.ttesc.common.vo.ResultVO;
-import com.ttesc.ddaycar_serveruser.sevrice.UserService;
+import com.ttesc.ddaycar_serveruser.service.UserService;
 import com.ttesc.entity.user.User;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  *@Author feri
@@ -17,7 +15,14 @@ public class UserController {
     @Autowired
     private UserService userService;
     @PostMapping("user/register.do")
-    public ResultVO save(@RequestParam("user") User user){
+    public ResultVO save(@RequestBody User user){
         return userService.register(user);
     }
+    @GetMapping("user/checkphone.do")
+    public ResultVO checkPhone(@RequestParam("phone") String phone){
+        return userService.checkPhone(phone);
+    }
+
+
+
 }

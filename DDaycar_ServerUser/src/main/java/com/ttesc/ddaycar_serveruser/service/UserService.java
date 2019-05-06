@@ -1,4 +1,4 @@
-package com.ttesc.ddaycar_serveruser.sevrice;
+package com.ttesc.ddaycar_serveruser.service;
 
 import com.ttesc.common.vo.ResultVO;
 import com.ttesc.entity.user.User;
@@ -9,4 +9,5 @@ import com.ttesc.entity.user.User;
  */
 public interface UserService {
     ResultVO register(User user);
+    ResultVO checkPhone(String phone);
 }
