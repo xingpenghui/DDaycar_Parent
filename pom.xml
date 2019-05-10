@@ -14,6 +14,8 @@
         <module>DDaycar_UI</module>
         <module>DDaycar_ServerCar</module>
         <module>DDaycar_ElasticApi</module>
+        <module>DDaycar_ServerSale</module>
+        <module>DDaycar_MqListener</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
